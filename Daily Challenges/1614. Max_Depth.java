@@ -7,7 +7,8 @@ and one as max depth who will check the max nesting in the string.
 Then we traverse through the string and strore every character as as char array.
 Then check for the '(' character if it is present we simply increase the depth,
 and we calculate the max depth by comparing between depth and maxDepth.
-If ')' char comes we decrease depth to maintain the loop if that it completes. -->
+If ')' char comes we decrease depth to maintain the loop if that it completes. 
+At last we return the maxDepth.-->
 
 # Complexity
 - Time complexity:
